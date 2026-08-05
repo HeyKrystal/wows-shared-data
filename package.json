@@ -1,0 +1,14 @@
+{
+  "name": "wows-data",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Normalized static World of Warships data for small web applications.",
+  "scripts": {
+    "update": "node scripts/update-data.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

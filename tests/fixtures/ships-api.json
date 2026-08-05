@@ -1,0 +1,43 @@
+{
+  "info": {
+    "ship_nations": { "germany": "Germany" },
+    "ship_types": { "Battleship": "Battleship" },
+    "ship_type_images": {
+      "Battleship": {
+        "image": "type.png",
+        "image_premium": "type-premium.png",
+        "image_elite": "type-special.png"
+      }
+    }
+  },
+  "ship": {
+    "ship_id": 3552524080,
+    "name": "Bismarck '41",
+    "description": "<b>Famous</b> German battleship.",
+    "tier": 8,
+    "nation": "germany",
+    "type": "Battleship",
+    "is_premium": true,
+    "is_special": false,
+    "images": {
+      "small": "small.png",
+      "medium": "medium.png",
+      "large": "large.png",
+      "contour": "contour.png"
+    },
+    "default_profile": {
+      "armour": { "total": 80, "health": 69200 },
+      "artillery": { "distance": 19.5 },
+      "anti_aircraft": { "defense": 55 },
+      "weaponry": {
+        "artillery": 70,
+        "torpedoes": 0,
+        "anti_aircraft": 55,
+        "aircraft": 0
+      },
+      "mobility": { "total": 42, "max_speed": 30, "turning_radius": 850, "rudder_time": 16 },
+      "concealment": { "total": 31, "detect_distance_by_ship": 15.2, "detect_distance_by_plane": 10.1 },
+      "hull": { "health": 69200 }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": null,
+  "datasets": {
+    "collections": {
+      "path": "v1/collections.json",
+      "count": 0,
+      "updatedAt": null,
+      "sha256": null
+    },
+    "ships": {
+      "path": "v1/ships.json",
+      "count": 0,
+      "updatedAt": null,
+      "sha256": null
+    }
+  }
+}
