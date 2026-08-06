@@ -1,3 +1,4 @@
+import { nationImagesFor } from "../assets/nation-flags.js";
 import {
   asNumber,
   asText,
@@ -58,6 +59,7 @@ export function normalizeShip(ship, info) {
     nation: {
       id: nationId,
       label: asText(info.ship_nations?.[nationId]) ?? nationId,
+      images: nationImagesFor(nationId),
     },
     type: {
       id: typeId,
