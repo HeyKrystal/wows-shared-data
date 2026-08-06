@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-06T02:20:34.763Z",
+  "updatedAt": "2026-08-06T03:25:21.054Z",
   "datasets": {
     "collections": {
       "path": "v1/collections.json",
@@ -11,8 +11,8 @@
     "ships": {
       "path": "v1/ships.json",
       "count": 989,
-      "updatedAt": "2026-08-06T02:20:34.763Z",
-      "sha256": "4b92b1c448105112e8598a48008d6483aaac4c4c563c72387ff92691b509c1aa"
+      "updatedAt": "2026-08-06T03:25:21.054Z",
+      "sha256": "7ec92d01c7050a6950bae89a5331f20ad473408699f62c8e67a58a7d75c76651"
     }
   }
 }
