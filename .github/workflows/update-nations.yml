@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       commit_changes:
-        description: Commit changed nation and ship data
+        description: Commit changed nation data
         required: true
         type: boolean
         default: false
@@ -58,23 +58,16 @@ jobs:
             npm run update:nations -- --dry-run
           fi
 
-      - name: Rebuild ships with nation icons
-        if: ${{ inputs.commit_changes }}
-        env:
-          WG_APPLICATION_ID: ${{ secrets.WG_APPLICATION_ID }}
-          DATASETS: ships
-        run: npm run update
-
-      - name: Commit changed data
+      - name: Commit changed nation data
         if: ${{ inputs.commit_changes }}
         run: |
-          if git diff --quiet -- public/v1; then
-            echo "No normalized data changed."
+          if git diff --quiet -- public/v1/nations.json public/v1/manifest.json; then
+            echo "No normalized nation data changed."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add public/v1/nations.json public/v1/ships.json public/v1/manifest.json
+          git add public/v1/nations.json public/v1/manifest.json
           git commit -m "chore(data): refresh nation icons"
           git push
