@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-08-06T03:28:24.882Z",
+  "source": "wargaming-vortex-glossary",
+  "language": "en",
+  "nations": [
+    {
+      "id": "commonwealth",
+      "label": "Commonwealth",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_Commonwealth_e708f80d98342c6cc35ec08bdfebdd98015056ca40ef828fbbd44e57aefd7715.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Commonwealth_f328561f17ef8caeeb094ef825da4587f78b78b2bd3dd09d66717e5ef359e77f.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Commonwealth_f328561f17ef8caeeb094ef825da4587f78b78b2bd3dd09d66717e5ef359e77f.png"
+      }
+    },
+    {
+      "id": "europe",
+      "label": "Europe",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_Europe_66b735f7c63b1fbc05c33f9f6289a5c5151eb9f7829f407ed4a9966188f19ff4.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Europe_8faa587e2808905b00609fe38106b8faa37695ee1df9130e767c740f76046b85.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Europe_8faa587e2808905b00609fe38106b8faa37695ee1df9130e767c740f76046b85.png"
+      }
+    },
+    {
+      "id": "france",
+      "label": "France",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_France_d67f8ec126611004d427736132c2ce3b3feace2e6177bdc9e1ff1be6f3afdb26.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_France_56a58c5e668eb6c54ac0b196fe77c4d16a9718b8ff5aa1b102c64b925449bdc3.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_France_56a58c5e668eb6c54ac0b196fe77c4d16a9718b8ff5aa1b102c64b925449bdc3.png"
+      }
+    },
+    {
+      "id": "germany",
+      "label": "Germany",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_Germany_8f3e3f4bb152e80cc8fb2cc34d426c6d85d57b72014c768883384055a2c2f3f7.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Germany_35d04fe7e0bf9b85a2ae507a4d4539bcbe9ea250d04480345156825398edcff8.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Germany_35d04fe7e0bf9b85a2ae507a4d4539bcbe9ea250d04480345156825398edcff8.png"
+      }
+    },
+    {
+      "id": "italy",
+      "label": "Italy",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_Italy_52727a3d376751ca3c4547750d0330100c08052581a387a7acadde7503a76463.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Italy_56198e82a47ece71c1a79662a246de425f605033b41cd0bd1cd50b71b41676f4.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Italy_56198e82a47ece71c1a79662a246de425f605033b41cd0bd1cd50b71b41676f4.png"
+      }
+    },
+    {
+      "id": "japan",
+      "label": "Japan",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_Japan_afff8f2e1e23cdf6b9314f80cca4fb85af40cfbe7812a9ccc707fd24ed207557.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Japan_e342ec07b9df580383a85abc178ac050901763e92607376b50a093c02b3abed0.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Japan_e342ec07b9df580383a85abc178ac050901763e92607376b50a093c02b3abed0.png"
+      }
+    },
+    {
+      "id": "netherlands",
+      "label": "The Netherlands",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_Netherlands_f706c692f890e876aeb549103873b16ee8b00ba7bbb4d0c3dd9997894e987bd3.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Netherlands_95aaa1a8837aaa25b7f8ee01481e08d219f713a314490ed741dd7dcf677dd143.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Netherlands_95aaa1a8837aaa25b7f8ee01481e08d219f713a314490ed741dd7dcf677dd143.png"
+      }
+    },
+    {
+      "id": "pan_america",
+      "label": "Pan-America",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_Pan_America_66683fa0d219a205edc85a0afb7155c3746fa17c637393c11ed54e3cc22f3616.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Pan_America_b5a862eb267c57c58c63401bee8d63f243538429166a238fcb8ed4d191165a30.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Pan_America_b5a862eb267c57c58c63401bee8d63f243538429166a238fcb8ed4d191165a30.png"
+      }
+    },
+    {
+      "id": "pan_asia",
+      "label": "Pan-Asia",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_Pan_Asia_fae90b7297e33378dbd81d57f61baa5671f67f363435768f1c9f66b39168730b.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Pan_Asia_52736e629f91a9fe8647ef1a05e8973f32471aef24c3df29caac8d84e59917d8.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Pan_Asia_52736e629f91a9fe8647ef1a05e8973f32471aef24c3df29caac8d84e59917d8.png"
+      }
+    },
+    {
+      "id": "spain",
+      "label": "Spain",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_Spain_faddbe9a35a81f9797e36142196ce81595a762969fd57c171f8866b4cf9b9f54.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Spain_956316c955d6d1ac7b623852fe4a3ba35d401d81ecf4296c3f927d8a1ef23059.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Spain_956316c955d6d1ac7b623852fe4a3ba35d401d81ecf4296c3f927d8a1ef23059.png"
+      }
+    },
+    {
+      "id": "uk",
+      "label": "U.K.",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_United_Kingdom_d6308791bceab9314e41018c12d68f2f809d8f92296e77459708373cd6a94113.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_United_Kingdom_447115c659293c9d4cc8f2714d27704a35ba98f17ff4b92b3761f03936c05e1a.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_United_Kingdom_447115c659293c9d4cc8f2714d27704a35ba98f17ff4b92b3761f03936c05e1a.png"
+      }
+    },
+    {
+      "id": "usa",
+      "label": "U.S.A.",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_USA_a608afcc194232095536ebc93508eb7b4b68cf46bc3600cd28b4afd0ad9a38b3.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_USA_1b4b2220fa11809cdd5179fa188ef7651382714b66cbbe12d49a0744dff52495.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_USA_1b4b2220fa11809cdd5179fa188ef7651382714b66cbbe12d49a0744dff52495.png"
+      }
+    },
+    {
+      "id": "ussr",
+      "label": "U.S.S.R.",
+      "images": {
+        "tiny": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/tiny/flag_Russia_1113e2d5311f815f1da7b80ea227d7ce57db3e1f476690cdcfc949011ff69283.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Russia_2096a97e46c74332d0579c54e5a242a2ff4a184d227ca50a36cba5f0875d7e48.png",
+        "default": "https://wows-gloss-icons.wgcdn.co/icons/nation_flags/small/flag_Russia_2096a97e46c74332d0579c54e5a242a2ff4a184d227ca50a36cba5f0875d7e48.png"
+      }
+    }
+  ]
+}
