@@ -90,7 +90,6 @@ export const shipsDataset = {
       client.getAllPages("ships"),
     ]);
     const info = infoPayload.data ?? {};
-
     const normalized = ships
       .map((ship) => normalizeShip(ship, info))
       .filter((ship) => ship.id && ship.name)
@@ -115,7 +114,13 @@ export const shipsDataset = {
 
     const ids = new Set();
     for (const ship of payload.ships) {
-      if (!ship.id || !ship.name || !ship.tier || !ship.type?.id || !ship.nation?.id) {
+      if (
+        !ship.id ||
+        !ship.name ||
+        !ship.tier ||
+        !ship.type?.id ||
+        !ship.nation?.id
+      ) {
         throw new Error(`Invalid ship record: ${JSON.stringify(ship)}`);
       }
       if (ids.has(ship.id)) {

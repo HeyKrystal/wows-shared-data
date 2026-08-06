@@ -1,0 +1,105 @@
+{
+  "data": {
+    "nations": [
+      {
+        "name": "usa",
+        "title": "U.S.A.",
+        "icons": {
+          "tiny": "//cdn.example.test/usa-tiny.png",
+          "small": "https://cdn.example.test/usa-small.png",
+          "default": "https://cdn.example.test/usa-default.png"
+        }
+      },
+      {
+        "name": "japan",
+        "title": "Japan",
+        "icons": {
+          "tiny": "https://cdn.example.test/japan-tiny.png",
+          "small": "https://cdn.example.test/japan-small.png",
+          "default": "https://cdn.example.test/japan-default.png"
+        }
+      },
+      {
+        "name": "ussr",
+        "title": "U.S.S.R.",
+        "icons": {
+          "tiny": "https://cdn.example.test/ussr-tiny.png",
+          "small": "https://cdn.example.test/ussr-small.png",
+          "default": "https://cdn.example.test/ussr-default.png"
+        }
+      },
+      {
+        "name": "germany",
+        "title": "Germany",
+        "icons": {
+          "tiny": "https://cdn.example.test/germany-tiny.png",
+          "small": "https://cdn.example.test/germany-small.png",
+          "default": "https://cdn.example.test/germany-default.png"
+        }
+      },
+      {
+        "name": "uk",
+        "title": "U.K.",
+        "icons": {
+          "tiny": "https://cdn.example.test/uk-tiny.png",
+          "small": "https://cdn.example.test/uk-small.png",
+          "default": "https://cdn.example.test/uk-default.png"
+        }
+      },
+      {
+        "name": "france",
+        "title": "France",
+        "icons": {
+          "tiny": "https://cdn.example.test/france-tiny.png",
+          "small": "https://cdn.example.test/france-small.png",
+          "default": "https://cdn.example.test/france-default.png"
+        }
+      },
+      {
+        "name": "pan_asia",
+        "title": "Pan-Asia",
+        "icons": {
+          "tiny": "https://cdn.example.test/pan-asia-tiny.png",
+          "small": "https://cdn.example.test/pan-asia-small.png",
+          "default": "https://cdn.example.test/pan-asia-default.png"
+        }
+      },
+      {
+        "name": "italy",
+        "title": "Italy",
+        "icons": {
+          "tiny": "https://cdn.example.test/italy-tiny.png",
+          "small": "https://cdn.example.test/italy-small.png",
+          "default": "https://cdn.example.test/italy-default.png"
+        }
+      },
+      {
+        "name": "commonwealth",
+        "title": "Commonwealth",
+        "icons": {
+          "tiny": "https://cdn.example.test/commonwealth-tiny.png",
+          "small": "https://cdn.example.test/commonwealth-small.png",
+          "default": "https://cdn.example.test/commonwealth-default.png"
+        }
+      },
+      {
+        "name": "pan_america",
+        "title": "Pan-America",
+        "icons": {
+          "tiny": "https://cdn.example.test/pan-america-tiny.png",
+          "small": "https://cdn.example.test/pan-america-small.png",
+          "default": "https://cdn.example.test/pan-america-default.png"
+        }
+      },
+      {
+        "name": "europe",
+        "title": "Europe",
+        "icons": {
+          "tiny": "https://cdn.example.test/europe-tiny.png",
+          "small": "https://cdn.example.test/europe-small.png",
+          "default": "https://cdn.example.test/europe-default.png"
+        }
+      }
+    ]
+  }
+}
