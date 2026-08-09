@@ -2,7 +2,7 @@ import { existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 const NATION_ASSET_BASE_URL =
-  "https://heykrystal.github.io/wows-shared-data/assets/wargaming/nations/icons";
+  "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons";
 
 const NATION_ASSET_DIRECTORY = new URL(
   "../../public/assets/wargaming/nations/icons/",
