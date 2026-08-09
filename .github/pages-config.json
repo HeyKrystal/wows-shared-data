@@ -1,0 +1,12 @@
+{
+  "_comment": "WoWS Shared Data Pages configuration. The shared deployment implementation lives in HeyKrystal/github-automation-library.",
+
+  "deploy": [
+    "public"
+  ],
+
+  "socialPreview": {
+    "skipGeneration": true,
+    "watch": []
+  }
+}
