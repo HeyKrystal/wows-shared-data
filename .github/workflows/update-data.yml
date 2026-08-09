@@ -3,12 +3,12 @@ name: Refresh Wargaming Data
 on:
   schedule:
     - cron: "17 8 * * *"
+
   workflow_dispatch:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
+  actions: write
 
 concurrency:
   group: update-wargaming-data
@@ -16,12 +16,15 @@ concurrency:
 
 jobs:
   update:
+    name: Refresh data
+
     runs-on: ubuntu-latest
 
-    outputs:
-      data_changed: ${{ steps.changes.outputs.data_changed }}
-
     steps:
+      # ---------------------------------------------------------------------
+      # Repository setup
+      # ---------------------------------------------------------------------
+
       - name: Check out repository
         uses: actions/checkout@v4
 
@@ -34,13 +37,25 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # ---------------------------------------------------------------------
+      # Validate before generating new public data
+      # ---------------------------------------------------------------------
+
       - name: Run tests
         run: npm test
+
+      # ---------------------------------------------------------------------
+      # Refresh normalized Wargaming datasets
+      # ---------------------------------------------------------------------
 
       - name: Refresh normalized data
         env:
           WG_APPLICATION_ID: ${{ secrets.WG_APPLICATION_ID }}
         run: npm run update
+
+      # ---------------------------------------------------------------------
+      # Determine whether the generated data actually changed
+      # ---------------------------------------------------------------------
 
       - name: Detect normalized data changes
         id: changes
@@ -54,9 +69,19 @@ jobs:
             echo "data_changed=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # ---------------------------------------------------------------------
+      # Commit only when generated data changed
+      #
+      # Commits created with GITHUB_TOKEN do not trigger ordinary push
+      # workflows, so Pages is dispatched explicitly in the following step.
+      # ---------------------------------------------------------------------
+
       - name: Commit changed data
         if: steps.changes.outputs.data_changed == 'true'
+        shell: bash
         run: |
+          set -euo pipefail
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -64,31 +89,21 @@ jobs:
           git commit -m "chore(data): refresh Wargaming data"
           git push
 
-      - name: Configure GitHub Pages
+      # ---------------------------------------------------------------------
+      # Deploy the newly committed data through the standard Pages workflow
+      #
+      # workflow_dispatch is intentionally used here because GitHub allows a
+      # GITHUB_TOKEN-created workflow_dispatch event to start another workflow.
+      #
+      # This keeps all Pages implementation details centralized in pages.yml
+      # and github-automation-library, exactly like the other WoWS projects.
+      # ---------------------------------------------------------------------
+
+      - name: Deploy updated data
         if: steps.changes.outputs.data_changed == 'true'
-        uses: actions/configure-pages@v5
-
-      - name: Upload static data
-        if: steps.changes.outputs.data_changed == 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
-
-  deploy:
-    needs: update
-    if: needs.update.outputs.data_changed == 'true'
-
-    concurrency:
-      group: pages
-      cancel-in-progress: true
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run pages.yml \
+            --repo "${{ github.repository }}" \
+            --ref main
