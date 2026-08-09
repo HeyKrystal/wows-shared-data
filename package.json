@@ -6,7 +6,6 @@
   "description": "Normalized static World of Warships data for small web applications.",
   "scripts": {
     "update": "node scripts/update-data.js",
-    "update:nations": "node scripts/update-nations.js",
     "test": "node --test"
   },
   "engines": {
