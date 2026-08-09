@@ -1,10 +1,21 @@
-import { readFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
+const NATION_ASSET_BASE_URL =
+  "https://heykrystal.github.io/wows-shared-data/assets/wargaming/nations/icons";
 
-const DEFAULT_NATIONS_FILE_URL = new URL(
-  "../../public/v1/nations.json",
-  import.meta.url,
-);
+const NATION_IDS = new Set([
+  "commonwealth",
+  "europe",
+  "france",
+  "germany",
+  "italy",
+  "japan",
+  "netherlands",
+  "pan_america",
+  "pan_asia",
+  "spain",
+  "uk",
+  "usa",
+  "ussr",
+]);
 
 const EMPTY_IMAGES = Object.freeze({
   tiny: null,
@@ -13,55 +24,24 @@ const EMPTY_IMAGES = Object.freeze({
 });
 
 /**
- * Loads the committed nation dataset used by the nightly ship normalizer.
+ * Resolves manually maintained Wargaming nation artwork hosted by this
+ * repository's GitHub Pages site.
  *
- * A missing file is valid before the first committed nation refresh. Ships
- * still build, but their nation image fields remain null until nations.json
- * exists.
+ * Only the tiny icon is currently stored. Unknown nation IDs intentionally
+ * return null images until their asset has been manually reviewed and added.
  */
-export function loadNationsPayload(fileUrl = DEFAULT_NATIONS_FILE_URL) {
-  try {
-    const contents = readFileSync(fileURLToPath(fileUrl), "utf8");
-    return JSON.parse(contents);
-  } catch (error) {
-    if (error?.code === "ENOENT") {
-      return {
-        schemaVersion: 1,
-        nations: [],
-      };
-    }
+export function nationImagesFor(nationId) {
+  const normalizedId = String(nationId ?? "")
+    .trim()
+    .toLowerCase();
 
-    throw new Error(`Unable to load nation icon data: ${error.message}`, {
-      cause: error,
-    });
+  if (!NATION_IDS.has(normalizedId)) {
+    return { ...EMPTY_IMAGES };
   }
-}
 
-export function createNationImageResolver(payload) {
-  const nationsById = new Map(
-    (payload?.nations ?? []).map((nation) => [String(nation.id), nation]),
-  );
-
-  return function resolveNationImages(nationId) {
-    const nation = nationsById.get(String(nationId ?? ""));
-
-    if (!nation) {
-      return { ...EMPTY_IMAGES };
-    }
-
-    return {
-      tiny: nation.images?.tiny ?? null,
-      small: nation.images?.small ?? null,
-      default: nation.images?.default ?? null,
-    };
+  return {
+    tiny: `${NATION_ASSET_BASE_URL}/${normalizedId}.png`,
+    small: null,
+    default: null,
   };
 }
-
-/**
- * This resolver is created once for each Node process. The nightly data job
- * starts in a fresh process after checkout, so it always reads the latest
- * committed public/v1/nations.json before normalizing ships.
- */
-export const nationImagesFor = createNationImageResolver(
-  loadNationsPayload(),
-);
