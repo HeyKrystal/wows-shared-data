@@ -6,7 +6,7 @@ import { nationImagesFor } from "../src/assets/nation-flags.js";
 test("resolves an existing nation icon to the shared Pages asset", () => {
   assert.deepEqual(nationImagesFor("germany"), {
     tiny:
-      "https://heykrystal.github.io/wows-shared-data/assets/wargaming/nations/icons/germany.png",
+      "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/germany.png",
     small: null,
     default: null,
   });
@@ -23,6 +23,6 @@ test("returns null images when no matching nation icon exists", () => {
 test("normalizes nation IDs before resolving an icon", () => {
   assert.equal(
     nationImagesFor("  GERMANY  ").tiny,
-    "https://heykrystal.github.io/wows-shared-data/assets/wargaming/nations/icons/germany.png",
+    "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/germany.png",
   );
 });
