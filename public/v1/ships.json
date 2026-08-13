@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-09T23:28:54.865Z",
+  "updatedAt": "2026-08-13T09:32:31.629Z",
   "ships": [
     {
       "id": "4188977104",
@@ -2186,7 +2186,7 @@
       "ratings": {
         "survivability": 12,
         "artillery": 24,
-        "torpedoes": 7,
+        "torpedoes": 8,
         "antiAircraft": 0,
         "maneuverability": 63,
         "concealment": 96,
@@ -6378,8 +6378,8 @@
       "premium": false,
       "special": true,
       "images": {
-        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD015_31214cc4e5698f77d2e0624fefc550993c5ace097bdb6f86af1ccb0084a9185a.png",
-        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD015_0fbb66f2ee7af19a08e0a079e4c4de712d2da3ed6863c005d96b4f207b33257d.png",
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD015_26448aace29dc6e794ecbcd212e077c6e11cd53be4ede9c24af78f7d6bfb53d4.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD015_779caaf6ddf28b17784a8632d136166855406ae602aceccd350a21de1bdd1205.png",
         "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSD015_018eb94615c3429b81dc1d9dff5541c8f811af322def720804cdd2590c3079bd.png",
         "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD015_eb9ba447a20595aa1932b5a7d9a61451065c201263197ffaa2503131567bb95f.png"
       },
@@ -10428,15 +10428,15 @@
       "premium": false,
       "special": true,
       "images": {
-        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD016_31214cc4e5698f77d2e0624fefc550993c5ace097bdb6f86af1ccb0084a9185a.png",
-        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD016_0fbb66f2ee7af19a08e0a079e4c4de712d2da3ed6863c005d96b4f207b33257d.png",
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD016_18c247dc568487e3a417caf4300c907b93ef820996e90a8401835ebd1d8d8d77.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD016_a54367dbb970a002ea823afae22bb148d498f2f486d8317fec5b1e9ef1aec62e.png",
         "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSD016_9630f0518a9b33da54ba11bf3c4dbf7415cb2c7d8dd8fdc7f05fec5676f166f3.png",
         "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD016_da6641e82f3656148a6bda8a776ac16d8d637ce334b741d64e208700b41016d9.png"
       },
       "ratings": {
         "survivability": 19,
         "artillery": 29,
-        "torpedoes": 12,
+        "torpedoes": 10,
         "antiAircraft": 10,
         "maneuverability": 66,
         "concealment": 92,
@@ -17328,15 +17328,15 @@
       "premium": false,
       "special": true,
       "images": {
-        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD017_31214cc4e5698f77d2e0624fefc550993c5ace097bdb6f86af1ccb0084a9185a.png",
-        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD017_0fbb66f2ee7af19a08e0a079e4c4de712d2da3ed6863c005d96b4f207b33257d.png",
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD017_c73df203652062863c3a5edd2cc42ad1f24c2d8401e31a1a848dde7170f36413.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD017_e4cad67215ab664c24d09aea92dca253476705ac8d80fd2ba1328d9e527eca9f.png",
         "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSD017_5d43e8ed5d4847bfe9ea7ecfded25f3c48f4ea28462ee5598a69a90b26c6a3e9.png",
         "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD017_0f1ffe3df2b3864b5d4b4551396247cb6aa846e0203e3cd18bbb03ad7be9a852.png"
       },
       "ratings": {
         "survivability": 21,
         "artillery": 30,
-        "torpedoes": 8,
+        "torpedoes": 9,
         "antiAircraft": 39,
         "maneuverability": 66,
         "concealment": 89,
@@ -22705,7 +22705,7 @@
     {
       "id": "3730782192",
       "name": "Constellation",
-      "description": "In 1911, when information about the keel-laying of Japanese ships of the Kongō-class came to light, the leadership of the U.S. Navy realized the need to build a battlecruiser. When the construction process started, the Lexington-class battleships were the largest warships ever built in the United States. Their armament consisted of eight 406 mm/50-caliber guns housed in four twin-gun turrets. USS Constellation was laid down in August 1920. The construction order was canceled three years later following the outcome of the Washington Naval Conference.",
+      "description": "In 1911, when information about the keel-laying of Japanese ships of the Kongō-class came to light, the leadership of the U.S. Navy realized the need to build a battlecruiser. When the construction process started, the Lexington-class battleships were the largest warships ever built in the United States. Their armament consisted of eight 406 mm guns housed in four twin-gun turrets. USS Constellation was laid down in August 1920. The construction order was canceled three years later following the outcome of the Washington Naval Conference.",
       "tier": 8,
       "nation": {
         "id": "usa",
@@ -22928,15 +22928,15 @@
       "premium": false,
       "special": true,
       "images": {
-        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD018_31214cc4e5698f77d2e0624fefc550993c5ace097bdb6f86af1ccb0084a9185a.png",
-        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD018_0fbb66f2ee7af19a08e0a079e4c4de712d2da3ed6863c005d96b4f207b33257d.png",
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD018_6ec33706cc5ee1f6c216e61d55602894688e89fc1e2dd771c10ff571f5969ee7.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD018_606770930f851e33dfd3e86c89a71a6050b137bf69bb31fba1b70b89ae7bf2d9.png",
         "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSD018_0c6562c593cc33fa6ef31656b89f09e6cbe43ca67e9696eb4309704204160a99.png",
         "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD018_b82a11882c5a1d6da3df95fc0d7abfd164878ad44e084f87aae67e2ef924c6c6.png"
       },
       "ratings": {
         "survivability": 26,
         "artillery": 31,
-        "torpedoes": 9,
+        "torpedoes": 10,
         "antiAircraft": 55,
         "maneuverability": 63,
         "concealment": 88,
@@ -26700,6 +26700,56 @@
         "surfaceDetectability": 7.6,
         "airDetectability": 3.5,
         "mainBatteryRange": 11.4
+      }
+    },
+    {
+      "id": "3552458512",
+      "name": "Philips van Almonde",
+      "description": "Philips van Almonde was the fourth and final ship of the Gerard Callenburgh class destroyers, a class intended to modernize the Dutch destroyer force in response to the increasingly large and capable destroyers entering service with other navies. Laid down in March 1939, the ship was destroyed on her slipway during the German invasion of the Netherlands in May 1940. The demolition effort was so thorough that the Germans chose to scrap the remains rather than attempt to complete the vessel.",
+      "tier": 8,
+      "nation": {
+        "id": "netherlands",
+        "label": "The Netherlands",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/netherlands.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Destroyer",
+        "label": "Destroyer",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Destroyer/standard_357acc9fc0e2f7d98f047c99edffad359a8c45f2093024400fef2b9abbaf3a59.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Destroyer/premium_9ffc494df739f989c98f2dd3a4e40887299a30d3dfd5b146e85d7ddd08f63744.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Destroyer/elite_d4fa1bfbf1f8ca4c5a9ae5e92ccfd4ba66369d93b4e6e3f3880551059cecda22.png"
+        }
+      },
+      "premium": false,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSD708_5ef0c76c469ba13ceae9947a7b63881da290054d585ea5d6968327ed7c0594d3.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PHSD708_0c94f9b6a8ef04f7eb124e624f34cd19eecd2cd289912683eb0f7decc85310cf.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PHSD708_9f6e5921be9de3bb36e7ef915fd553cc0bdd405464b8300e49f056e3436a8b32.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PHSD708_d4bbb910224a7a3de397c37cb1de6586c149908bdc0db8c0706df1f067f68a1c.png"
+      },
+      "ratings": {
+        "survivability": 26,
+        "artillery": 54,
+        "torpedoes": 15,
+        "antiAircraft": 36,
+        "maneuverability": 70,
+        "concealment": 89,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 14200,
+        "maxSpeed": 37.5,
+        "turningRadius": 580,
+        "rudderShiftTime": 3.4,
+        "surfaceDetectability": 7.4,
+        "airDetectability": 2.8,
+        "mainBatteryRange": 11.7
       }
     },
     {
@@ -31425,7 +31475,7 @@
           "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Destroyer/elite_d4fa1bfbf1f8ca4c5a9ae5e92ccfd4ba66369d93b4e6e3f3880551059cecda22.png"
         }
       },
-      "premium": false,
+      "premium": true,
       "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PUSD709_1982c88c3bd89ef44a4fc4819c6143e90703fccfbda93efe633e300057ff8fb0.png",
@@ -32435,7 +32485,7 @@
       },
       "ratings": {
         "survivability": 81,
-        "artillery": 90,
+        "artillery": 88,
         "torpedoes": 0,
         "antiAircraft": 79,
         "maneuverability": 46,
@@ -34053,6 +34103,56 @@
       }
     },
     {
+      "id": "3519985392",
+      "name": "La Spezia",
+      "description": "Following the success of the First World War-era \"Paris Gun,\" several countries began experimenting with exceptionally long-barrel artillery pieces in an effort to improve ballistic performance without increasing shell caliber, an especially important consideration during the era of naval treaty limitations. Italy was among the nations pursuing such experiments, including the development of long-barrel 203 mm naval guns. Had these weapons proven successful, they might have been adopted for a new generation of Italian heavy cruisers.",
+      "tier": 9,
+      "nation": {
+        "id": "italy",
+        "label": "Italy",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/italy.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Cruiser",
+        "label": "Cruiser",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/standard_44b68c918edc534e1367cb6512e9e8cc4d28aa54d237db820f1bbba867266742.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/premium_1114542bcd311c388080eea3a4d54a7ea6fdc8706b019fcbf16ace9951f3a000.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/elite_127b2a5f66ce04425e45721020a88ed6d6cad202e186f39577cbcd91dd205fe3.png"
+        }
+      },
+      "premium": false,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISC739_05c5a62f79b142a9cec1c1df76f54ffdb44a9d70cec4cdf334306c065150fd93.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISC739_ddbcaa05028e67315693b45a15a71246d002bf9f6375811c952e412a64de5ab2.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PISC739_e15539bd8be6c6c236ced974a8e298fdacb99caf17a1e56b60c8735bc8326f92.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PISC739_22a99ad2a1df89491929fd87b3223a2214f301e55c4e23061ae20a055ddd9792.png"
+      },
+      "ratings": {
+        "survivability": 60,
+        "artillery": 91,
+        "torpedoes": 22,
+        "antiAircraft": 82,
+        "maneuverability": 60,
+        "concealment": 40,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 44800,
+        "maxSpeed": 36.7,
+        "turningRadius": 730,
+        "rudderShiftTime": 11.7,
+        "surfaceDetectability": 15,
+        "airDetectability": 9.2,
+        "mainBatteryRange": 18.8
+      }
+    },
+    {
       "id": "4075697456",
       "name": "Lambros Katsonis",
       "description": "In the late 1920s, there was a dispute among the leaders of the Greek Navy about whether to invest in building more conventional ships or build fewer but stronger ones. In 1929, as Turkey purchased four destroyers from Italy, the first approach prevailed, and Greece ultimately ordered four destroyers to be built with simplified technology, also in Italy. An alternative solution could be the other approach, which envisaged ordering a pair of large ships with 140 mm guns. The most suitable was one of the pre-designs of a fleet cruiser that the British Admiralty was considering at that time. Namely, the E-class cruiser armed with six 140 mm guns. Lambros Katsonis was named after the leader of the national liberation struggle of the Greek people.",
@@ -35328,15 +35428,15 @@
       "premium": false,
       "special": true,
       "images": {
-        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD019_31214cc4e5698f77d2e0624fefc550993c5ace097bdb6f86af1ccb0084a9185a.png",
-        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD019_0fbb66f2ee7af19a08e0a079e4c4de712d2da3ed6863c005d96b4f207b33257d.png",
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD019_39d346b5f1edd28cb327e369c2b78f679737d7d0f0152eeac06eff50c438c932.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD019_da4f05524479c5629632ed1744924f330ae5b2a45357f7980a3d72877898e2a9.png",
         "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PVSD019_ca0f5ae0d7f7d778a267eb24b257bd52c6d86663767466e395ae47e7fc11d837.png",
         "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PVSD019_9041923b2ecdb494c58760f0eff0c8de1a3455e45642c2e93f62b95f4431b902.png"
       },
       "ratings": {
         "survivability": 29,
         "artillery": 29,
-        "torpedoes": 7,
+        "torpedoes": 9,
         "antiAircraft": 60,
         "maneuverability": 62,
         "concealment": 87,
@@ -35800,6 +35900,56 @@
         "surfaceDetectability": 15.1,
         "airDetectability": 10,
         "mainBatteryRange": 21.4
+      }
+    },
+    {
+      "id": "3530503632",
+      "name": "Respublika",
+      "description": "During the 1930s, the Soviet Union sought to modernize and expand its naval capabilities, dispatching delegations to several leading naval powers to seek assistance in the design and construction of modern warships. One such delegation visited the American naval architecture firm Gibbs & Cox, which produced several proposals for the Soviets, including Project 1058.4. This design notably featured an aft-mounted quadruple 406 mm turret. However, following the Soviet invasion of Poland, all American assistance to the Soviet naval program came to an end.",
+      "tier": 9,
+      "nation": {
+        "id": "ussr",
+        "label": "U.S.S.R.",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/ussr.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Battleship",
+        "label": "Battleship",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/standard_1468cf2ed1dc129ec4db4d9d18306bd06abb0d6b08c805dc94fe23ce6187c119.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/premium_1d0cabf1997104fd727039ab9c09819260343ab3a9e862f361434d7f42270eb3.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/elite_9fe36e82e214ad6f8dcc305bf8d10d3d0fe35c64628611d9a39f3af01382a567.png"
+        }
+      },
+      "premium": false,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSB729_37010eb4cd648832a4daaf09077a9c6c14cb2049b86876a8d76c9da79016183b.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSB729_c77796314f955f6b5c7d36e4162da10e753717d5ca533dae4d2df7ec80b7446d.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSB729_41c62fc21c259c10aa09d81f70450b3dde39d0f274ad869785640eac91351d5b.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB729_f0f6eed7222a86aebeb0d572ea8ea0b6363278c0b99663a1fb41b39642b96dcc.png"
+      },
+      "ratings": {
+        "survivability": 94,
+        "artillery": 85,
+        "torpedoes": 0,
+        "antiAircraft": 74,
+        "maneuverability": 44,
+        "concealment": 28,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 75900,
+        "maxSpeed": 31,
+        "turningRadius": 940,
+        "rudderShiftTime": 14.3,
+        "surfaceDetectability": 17.3,
+        "airDetectability": 10,
+        "mainBatteryRange": 17.6
       }
     },
     {
@@ -36353,6 +36503,56 @@
       }
     },
     {
+      "id": "3520017872",
+      "name": "Sovetskaya Rossiya",
+      "description": "Sovetskaya Rossiya was the fourth ship of the Sovetsky Soyuz-class battleships, a class intended to form the core of a new Soviet battlefleet. The ship herself was laid down at Molotovsk in Northern Russia. Following the German invasion of the Soviet Union in June 1941, resources and industrial capacity were redirected away from battleship construction toward more immediate wartime requirements. As a result, by the end of the war, Sovetskaya Rossiya was just 5% complete. She was ultimately ordered scrapped in March 1947.",
+      "tier": 9,
+      "nation": {
+        "id": "ussr",
+        "label": "U.S.S.R.",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/ussr.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Battleship",
+        "label": "Battleship",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/standard_1468cf2ed1dc129ec4db4d9d18306bd06abb0d6b08c805dc94fe23ce6187c119.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/premium_1d0cabf1997104fd727039ab9c09819260343ab3a9e862f361434d7f42270eb3.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/elite_9fe36e82e214ad6f8dcc305bf8d10d3d0fe35c64628611d9a39f3af01382a567.png"
+        }
+      },
+      "premium": false,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSB739_503288f4ec07a0ebb2dc70167be2370851f8ecd2ace83df0c698fdff7968a162.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSB739_cc02a5ab75f4bdd4e41360148cdca1e1d2f193fa2244f8f1c84cfd2a76fb15ab.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSB739_1df3a646c3131edc1ce08009dbc660be05a6a1a7e9d350da742a876cfcd91716.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB739_cc3169df980d81bdbc4e2862163aaeb57b7ddf29eb450beae776f9b181dea003.png"
+      },
+      "ratings": {
+        "survivability": 98,
+        "artillery": 83,
+        "torpedoes": 0,
+        "antiAircraft": 58,
+        "maneuverability": 37,
+        "concealment": 33,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 80900,
+        "maxSpeed": 28,
+        "turningRadius": 950,
+        "rudderShiftTime": 14.9,
+        "surfaceDetectability": 16.2,
+        "airDetectability": 10,
+        "mainBatteryRange": 19.4
+      }
+    },
+    {
       "id": "4180620752",
       "name": "Sovetsky Soyuz",
       "description": "In the spring of 1937, the Soviet authorities learned about the construction of new German and Japanese ships that seemed more powerful than their A-class battleship project. The Shipbuilding Bureau suggested improving the displacement and speed of Project 23 up to 55,000 tons and 29.5 knots, respectively. The project was completed in March 1938, and the Defense Committee ordered the construction of four more ships. Sovetsky Soyuz was laid down at the Baltic Works on July 15, 1938. When the war broke out, the orders for producing parts in foreign countries were canceled; the ship, which was 21% complete, wasn't finished due to the blockade of Leningrad.",
@@ -36875,7 +37075,7 @@
           "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/elite_9fe36e82e214ad6f8dcc305bf8d10d3d0fe35c64628611d9a39f3af01382a567.png"
         }
       },
-      "premium": false,
+      "premium": true,
       "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSB709_176e29490f66fca71947df600ca7988d7c11d18a7a8a0df82d7f8165a57882ea.png",
@@ -36885,7 +37085,7 @@
       },
       "ratings": {
         "survivability": 98,
-        "artillery": 86,
+        "artillery": 84,
         "torpedoes": 0,
         "antiAircraft": 90,
         "maneuverability": 45,
@@ -38586,7 +38786,7 @@
       "ratings": {
         "survivability": 34,
         "artillery": 32,
-        "torpedoes": 9,
+        "torpedoes": 12,
         "antiAircraft": 75,
         "maneuverability": 58,
         "concealment": 88,
@@ -39076,7 +39276,7 @@
         }
       },
       "premium": false,
-      "special": false,
+      "special": true,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSC710_a1d4a550a421ce8b3dce203d05e5c12bda47518f409315a548fe74975591f076.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSC710_10e77cfd7104182a5bb0e006972a504d626e10d7e68bb0487cea383c19a7206e.png",
@@ -39085,17 +39285,17 @@
       },
       "ratings": {
         "survivability": 58,
-        "artillery": 72,
+        "artillery": 73,
         "torpedoes": 0,
         "antiAircraft": 77,
-        "maneuverability": 52,
+        "maneuverability": 51,
         "concealment": 56,
         "aircraft": 0
       },
       "stats": {
         "hitPoints": 40600,
         "maxSpeed": 32,
-        "turningRadius": 690,
+        "turningRadius": 760,
         "rudderShiftTime": 10,
         "surfaceDetectability": 11.8,
         "airDetectability": 8.5,
@@ -39135,21 +39335,21 @@
       },
       "ratings": {
         "survivability": 87,
-        "artillery": 86,
+        "artillery": 89,
         "torpedoes": 0,
         "antiAircraft": 79,
-        "maneuverability": 41,
+        "maneuverability": 52,
         "concealment": 37,
         "aircraft": 0
       },
       "stats": {
         "hitPoints": 68000,
-        "maxSpeed": 29.5,
-        "turningRadius": 830,
+        "maxSpeed": 35.2,
+        "turningRadius": 920,
         "rudderShiftTime": 15.8,
         "surfaceDetectability": 15.4,
         "airDetectability": 10,
-        "mainBatteryRange": 19.2
+        "mainBatteryRange": 23.3
       }
     },
     {
@@ -40482,6 +40682,56 @@
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB110_135ede5e893e5f2cf148f7a8d1b81fdc2bbb130a2855cc2c76c1c24fe9eef604.png",
         "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB110_1dc96d766691d6fa93436482fd4b0465deb584f600e64d9cfed49049c03fc64c.png",
         "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB110_19d2ffcc4b2d4e5698517fc6f1629f7cf03ca9b36a48f45fe196e4f47d8d4b54.png"
+      },
+      "ratings": {
+        "survivability": 100,
+        "artillery": 93,
+        "torpedoes": 0,
+        "antiAircraft": 80,
+        "maneuverability": 38,
+        "concealment": 37,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 82900,
+        "maxSpeed": 29.5,
+        "turningRadius": 940,
+        "rudderShiftTime": 17.3,
+        "surfaceDetectability": 15.2,
+        "airDetectability": 10,
+        "mainBatteryRange": 24.3
+      }
+    },
+    {
+      "id": "3330226128",
+      "name": "Conqueror CLR",
+      "description": "After battleship Vanguard was laid down, the plan was to develop British battleships in such a way as to increase their dimensions while maintaining the layout design of their predecessors. One of the options was to switch to three-gun turrets and increase the caliber to 419 mm.",
+      "tier": 10,
+      "nation": {
+        "id": "uk",
+        "label": "U.K.",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/uk.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Battleship",
+        "label": "Battleship",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/standard_1468cf2ed1dc129ec4db4d9d18306bd06abb0d6b08c805dc94fe23ce6187c119.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/premium_1d0cabf1997104fd727039ab9c09819260343ab3a9e862f361434d7f42270eb3.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/elite_9fe36e82e214ad6f8dcc305bf8d10d3d0fe35c64628611d9a39f3af01382a567.png"
+        }
+      },
+      "premium": false,
+      "special": true,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PBSB920_0e089d7cffec28566ead04c8f38e4cfab0bc80e4daf934e3db5a14d7d2a48c4a.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PBSB920_ebef4c62b613b1b48887e6780c0360f52da3155f79c928762fc38e1f487639fa.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PBSB920_7b7d27b2f7aa86b426e7d6774bc08a4e95ab94ae324109dabb416dabe2b0f030.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PBSB920_6fa247417149f6dccda40d102b9665d14452216a1e2ff7dde4082f30b4eee127.png"
       },
       "ratings": {
         "survivability": 100,
@@ -43050,6 +43300,56 @@
         "surfaceDetectability": 7.4,
         "airDetectability": 3.7,
         "mainBatteryRange": 12.4
+      }
+    },
+    {
+      "id": "3539908432",
+      "name": "Latouche-Tréville",
+      "description": "During the interwar period, the French Marine Nationale investigated new capital ship designs to modernize its fleet. Among them was a proposed 37,000-ton battlecruiser armed with twelve 305 mm guns mounted in three quadruple-gun turrets. These ships would have been well-suited to counter the new Italian heavy cruisers. Ultimately, the design was never constructed. If such a ship had been built and survived World War II, she would likely have undergone modernization with updated anti-aircraft armament at the end of the 1940s.",
+      "tier": 10,
+      "nation": {
+        "id": "france",
+        "label": "France",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/france.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Cruiser",
+        "label": "Cruiser",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/standard_44b68c918edc534e1367cb6512e9e8cc4d28aa54d237db820f1bbba867266742.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/premium_1114542bcd311c388080eea3a4d54a7ea6fdc8706b019fcbf16ace9951f3a000.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/elite_127b2a5f66ce04425e45721020a88ed6d6cad202e186f39577cbcd91dd205fe3.png"
+        }
+      },
+      "premium": false,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSC720_5a49098eb8649699f4e8b2dc16ef7fd23cf252b19c8cb2d27d3c4f4ca198b0fb.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSC720_4d53dc5dd0002cd475146a2c4d638bcdb31512e9d364d6fc6f30e62c83c831e3.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSC720_82eafe8975a7d637515759d84402ef6551fb153a2247db2c76659e8a6dffc523.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSC720_dc81c2eb988b338eaab3dbc35931c4de7d6f33f381f9e046478933902ff96ed0.png"
+      },
+      "ratings": {
+        "survivability": 86,
+        "artillery": 84,
+        "torpedoes": 16,
+        "antiAircraft": 80,
+        "maneuverability": 52,
+        "concealment": 41,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 66800,
+        "maxSpeed": 34.5,
+        "turningRadius": 870,
+        "rudderShiftTime": 14.4,
+        "surfaceDetectability": 14.3,
+        "airDetectability": 10,
+        "mainBatteryRange": 20.1
       }
     },
     {
@@ -46703,6 +47003,56 @@
       }
     },
     {
+      "id": "3529455312",
+      "name": "Tōgasa",
+      "description": "A battlecruiser armed with 310 mm and 100 mm gun mounts originally intended for the B-65 super cruiser design of 1941. The ship herself, designed in the late 1910s, could have been built as part of the famous 8-8 Program and modernized two decades later, with her armament replaced by more modern artillery systems that were then in the design stage.",
+      "tier": 10,
+      "nation": {
+        "id": "japan",
+        "label": "Japan",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/japan.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Battleship",
+        "label": "Battleship",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/standard_1468cf2ed1dc129ec4db4d9d18306bd06abb0d6b08c805dc94fe23ce6187c119.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/premium_1d0cabf1997104fd727039ab9c09819260343ab3a9e862f361434d7f42270eb3.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/elite_9fe36e82e214ad6f8dcc305bf8d10d3d0fe35c64628611d9a39f3af01382a567.png"
+        }
+      },
+      "premium": false,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSB730_6299be5ac4cc01802272329155376b7f5aefcccdea11b922b29c6cf37f01d6c6.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSB730_d3506ad3501bc4ff91ec9f1d54a4e770ba2bc8ff862fd19193a816c05dedbe08.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSB730_cc8927fdecebe2c8c73755b46de376b7e33075e70eb4e60ccb17139eb3aaf6bd.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSB730_f942c03b421ff1c1d2c264b821cb2aa675516e0eb1b28efc641ff6ab2a383cb8.png"
+      },
+      "ratings": {
+        "survivability": 87,
+        "artillery": 87,
+        "torpedoes": 35,
+        "antiAircraft": 69,
+        "maneuverability": 40,
+        "concealment": 36,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 68300,
+        "maxSpeed": 29.5,
+        "turningRadius": 880,
+        "rudderShiftTime": 15.9,
+        "surfaceDetectability": 15.4,
+        "airDetectability": 10,
+        "mainBatteryRange": 21.7
+      }
+    },
+    {
       "id": "3549869840",
       "name": "Tonijn",
       "description": "The last of the four Dolfijn-class submarines, the first domestic submarines built for the Royal Netherlands Navy after World War II. Their hulls consisted of three separate pressure hulls, allowing them to dive deeper and with greater stability than previous submarines. The class formed the core of the Dutch submarine force during the Cold War. Tonijn herself was decommissioned in January 1991 and is now a museum ship.",
@@ -49385,11 +49735,11 @@
       },
       "ratings": {
         "survivability": 38,
-        "artillery": 63,
+        "artillery": 65,
         "torpedoes": 34,
         "antiAircraft": 71,
         "maneuverability": 70,
-        "concealment": 82,
+        "concealment": 87,
         "aircraft": 0
       },
       "stats": {
@@ -49397,8 +49747,8 @@
         "maxSpeed": 39,
         "turningRadius": 740,
         "rudderShiftTime": 4.8,
-        "surfaceDetectability": 8.4,
-        "airDetectability": 4.1,
+        "surfaceDetectability": 7.5,
+        "airDetectability": 3.7,
         "mainBatteryRange": 12.8
       }
     },

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-05T21:59:21.399Z",
+  "updatedAt": "2026-08-13T09:32:31.629Z",
   "collections": [
     {
       "id": 4254047152,
@@ -56,6 +56,13 @@
       "size": 60,
       "duplicateRate": 3,
       "image": "https://wows-gloss-icons.wgcdn.co/icons/collections/album_icons/small/collection_token_PCZA035_PAMBB_138_65b335531f0e58064a898b69b75faa8e676e952f92bbec6373558eefffe98d80.png"
+    },
+    {
+      "id": 4244609968,
+      "name": "Battle of Santiago de Cuba",
+      "size": 60,
+      "duplicateRate": 3,
+      "image": "https://wows-gloss-icons.wgcdn.co/icons/collections/album_icons/small/collection_token_PCZA048_ESP_Legendary_04403b1b78dc36f2026a05097d6b58a47f86472a365fff0de2aacdbff06b4eb1.png"
     },
     {
       "id": 4288650160,
