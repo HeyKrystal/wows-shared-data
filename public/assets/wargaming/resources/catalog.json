@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "resources": [
+    {
+      "id": "coal",
+      "label": "Coal",
+      "icon": "icons/icon_coal.png"
+    },
+    {
+      "id": "communityTokens",
+      "label": "Community Tokens",
+      "icon": "icons/icon_recruitment_points.png"
+    },
+    {
+      "id": "freeXp",
+      "label": "Free XP",
+      "icon": "icons/icon_freeXP.png"
+    },
+    {
+      "id": "credits",
+      "label": "Credits",
+      "icon": "icons/icon_credits.png"
+    },
+    {
+      "id": "eliteCommanderXp",
+      "label": "Elite Commander XP",
+      "icon": "icons/icon_eliteXP.png"
+    },
+    {
+      "id": "doubloons",
+      "label": "Doubloons",
+      "icon": "icons/icon_gold.png"
+    }
+  ]
+}
