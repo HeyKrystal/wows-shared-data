@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T09:32:31.629Z",
+  "updatedAt": "2026-09-09T12:57:19.579Z",
   "collections": [
     {
       "id": 4254047152,
@@ -84,6 +84,13 @@
       "size": 16,
       "duplicateRate": 5,
       "image": "https://wows-gloss-icons.wgcdn.co/icons/collections/album_icons/small/collection_token_PCZA013_HappyNewYear2019_0e6d9779358e7fc3aa1efc0f21081a5c493869a74a8fa1b021aa7804ee8f5f5b.png"
+    },
+    {
+      "id": 4242512816,
+      "name": "Chikuma's Fall",
+      "size": 4,
+      "duplicateRate": 1,
+      "image": "https://wows-gloss-icons.wgcdn.co/icons/collections/album_icons/small/collection_token_PCZA050_Naval_Legacy_Chikuma_954a6a2256f373c3c8312a0a46043b37909970e269f7a8c722c163a9b54d1681.png"
     },
     {
       "id": 4265581488,
@@ -217,6 +224,13 @@
       "size": 4,
       "duplicateRate": 1,
       "image": "https://wows-gloss-icons.wgcdn.co/icons/collections/album_icons/small/collection_token_PCZA046_Hunt_Bismarck_8a41a0b979c0023033e5d531b6db54121c452ca9b32408745895a017f519e368.png"
+    },
+    {
+      "id": 4243561392,
+      "name": "Red Steel Titan",
+      "size": 60,
+      "duplicateRate": 3,
+      "image": "https://wows-gloss-icons.wgcdn.co/icons/collections/album_icons/small/collection_token_PCZA049_SovCollection_467db72fb00ad0d1ac0a849804c793c025a8561223289f5b82c5685cecb13f18.png"
     },
     {
       "id": 4276067248,
