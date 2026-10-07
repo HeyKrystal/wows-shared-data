@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-09-09T12:57:19.579Z",
+  "updatedAt": "2026-10-07T15:32:26.886Z",
   "ships": [
     {
       "id": "4188977104",
@@ -2176,7 +2176,7 @@
         }
       },
       "premium": false,
-      "special": true,
+      "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD013_e84ae48fe8cc2ee428b4cbdb3c36f91a20b4a6041fab67faab2ee71a3520dc5b.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD013_394b0eac104990c9f23350b988b9d48cbf4ab929ce9f0765b84e68b4fd901761.png",
@@ -4653,6 +4653,56 @@
       }
     },
     {
+      "id": "4280202544",
+      "name": "Dragon",
+      "description": "A Danae-class cruiser constructed for the Royal Navy during World War I. Following the outbreak of World War II, she took part in a range of operations. In January 1943, the ship was transferred to the Polish Navy under her original name. Dragon escorted Arctic convoys and later supported the British landings at Sword Beach during Operation Overlord. On July 8, 1944, she was struck by a German manned torpedo receiving severe damage. Although the cruiser was still afloat, it was decided to scuttle the outdated ship to form part of a breakwater intended to protect the British Mulberry harbor.",
+      "tier": 4,
+      "nation": {
+        "id": "europe",
+        "label": "Europe",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/europe.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Cruiser",
+        "label": "Cruiser",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/standard_44b68c918edc534e1367cb6512e9e8cc4d28aa54d237db820f1bbba867266742.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/premium_1114542bcd311c388080eea3a4d54a7ea6fdc8706b019fcbf16ace9951f3a000.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/elite_127b2a5f66ce04425e45721020a88ed6d6cad202e186f39577cbcd91dd205fe3.png"
+        }
+      },
+      "premium": false,
+      "special": true,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSC014_4f42f321b96c5531d0fc8cec7126027495e6941bfd63f370f883fa1c929d7e20.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSC014_408da7ba9e9873ce9e6da0fc97d32313c2546315335719997ac3bfb5588b7c6b.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSC014_acbe229ff78ad6339f8ce4f4bc50fd036502c16805d4b11d0d600a204db07563.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSC014_b34a90c0bf958f6772a759a0c1511178b71dc6e070cf4866f9e0399b9c91b710.png"
+      },
+      "ratings": {
+        "survivability": 24,
+        "artillery": 53,
+        "torpedoes": 0,
+        "antiAircraft": 39,
+        "maneuverability": 48,
+        "concealment": 79,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 18900,
+        "maxSpeed": 29,
+        "turningRadius": 550,
+        "rudderShiftTime": 8.3,
+        "surfaceDetectability": 7.8,
+        "airDetectability": 6.4,
+        "mainBatteryRange": 11.5
+      }
+    },
+    {
       "id": "4185831248",
       "name": "Duguay-Trouin",
       "description": "After researching the German designs and receiving information on the characteristics of the American Omaha cruisers, the project for the reconnaissance cruiser was revised. The final requirements for the project included armament of eight 155 mm guns in four turrets and a displacement of 8,000 tons. During World War II, Duguay-Trouin participated in patrol operations in the Atlantic and the landings of Allied forces in the south of France.",
@@ -5776,7 +5826,7 @@
         }
       },
       "premium": false,
-      "special": true,
+      "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD014_b7b959a4bf5d78e2e51c969a8665c1234697afbab4fa60b4fdc6186b9a0056ae.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD014_b274342fcfc00737c3009dcfb092a71af00623ca855440678f24c012150a53d3.png",
@@ -6376,7 +6426,7 @@
         }
       },
       "premium": false,
-      "special": true,
+      "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD015_26448aace29dc6e794ecbcd212e077c6e11cd53be4ede9c24af78f7d6bfb53d4.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD015_779caaf6ddf28b17784a8632d136166855406ae602aceccd350a21de1bdd1205.png",
@@ -8100,6 +8150,56 @@
         "surfaceDetectability": 11,
         "airDetectability": 6,
         "mainBatteryRange": 14.3
+      }
+    },
+    {
+      "id": "4279153968",
+      "name": "Kralj Petar I",
+      "description": "A light cruiser capable of serving as the flagship of a small task force and independently performing various combat missions. The Kingdom of Yugoslavia could have ordered such a ship from Great Britain in the early 1930s, following the commissioning of destroyer Dubrovnik. To save time and resources on development of a new design, British shipbuilders could have chosen to lay down an additional Arethusa-class cruiser.",
+      "tier": 5,
+      "nation": {
+        "id": "europe",
+        "label": "Europe",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/europe.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Cruiser",
+        "label": "Cruiser",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/standard_44b68c918edc534e1367cb6512e9e8cc4d28aa54d237db820f1bbba867266742.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/premium_1114542bcd311c388080eea3a4d54a7ea6fdc8706b019fcbf16ace9951f3a000.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/elite_127b2a5f66ce04425e45721020a88ed6d6cad202e186f39577cbcd91dd205fe3.png"
+        }
+      },
+      "premium": false,
+      "special": true,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PWSC015_4410937a74fd4eb9deee9e8a4d053967212be223c7c4b943c7842f81fc1c44f5.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PWSC015_43786a98eee446339e1ca9df9d5816a703f7c7db66fe66439e515ec8bc4fb5c5.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PWSC015_5b70b8987e3ec5def01fa94041d86d27c6e890d0350c30171cc7f76b612d776e.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PWSC015_77ff13220c628bb4a8edefa08870748895ee5dd5f9cf94a46bced62cac43a838.png"
+      },
+      "ratings": {
+        "survivability": 27,
+        "artillery": 52,
+        "torpedoes": 8,
+        "antiAircraft": 45,
+        "maneuverability": 56,
+        "concealment": 71,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 20100,
+        "maxSpeed": 32.3,
+        "turningRadius": 570,
+        "rudderShiftTime": 6.7,
+        "surfaceDetectability": 9.7,
+        "airDetectability": 6.5,
+        "mainBatteryRange": 11.8
       }
     },
     {
@@ -10426,7 +10526,7 @@
         }
       },
       "premium": false,
-      "special": true,
+      "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD016_18c247dc568487e3a417caf4300c907b93ef820996e90a8401835ebd1d8d8d77.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD016_a54367dbb970a002ea823afae22bb148d498f2f486d8317fec5b1e9ef1aec62e.png",
@@ -16435,7 +16535,7 @@
       },
       "ratings": {
         "survivability": 38,
-        "artillery": 69,
+        "artillery": 68,
         "torpedoes": 11,
         "antiAircraft": 47,
         "maneuverability": 58,
@@ -16500,6 +16600,56 @@
         "surfaceDetectability": 11.5,
         "airDetectability": 6.4,
         "mainBatteryRange": 13.2
+      }
+    },
+    {
+      "id": "3543054320",
+      "name": "Honolulu",
+      "description": "A Brooklyn-class light cruiser commissioned into the U.S. Navy in 1938. USS Honolulu survived the attack on Pearl Harbor in December 1941 and actively participated in the Pacific War. Her combat record comprised several major battles, including the Battles of Tassafaronga, Kula Gulf, and Kolombangara. During the latter battle, Honolulu helped to sink several enemy ships but suffered severe damage herself—a Japanese torpedo tore off the ship's bow. After repairs, the cruiser participated in the Battle of Leyte Gulf, where she was torpedoed again, and she remained under repair until the end of the war.",
+      "tier": 7,
+      "nation": {
+        "id": "usa",
+        "label": "U.S.A.",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/usa.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Cruiser",
+        "label": "Cruiser",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/standard_44b68c918edc534e1367cb6512e9e8cc4d28aa54d237db820f1bbba867266742.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/premium_1114542bcd311c388080eea3a4d54a7ea6fdc8706b019fcbf16ace9951f3a000.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/elite_127b2a5f66ce04425e45721020a88ed6d6cad202e186f39577cbcd91dd205fe3.png"
+        }
+      },
+      "premium": false,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASC717_24d0bc4230c832744820cf253df19f5fefacaec84794c6efa4476b24d22583ff.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASC717_9e5e038b1579238fa2d70a13c3bee777f64fd2464daca51553c8959b488b7038.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASC717_0de0264b3bf5b254b2709131e1501c16ca51bc08e0b55f0cd65ff3f14906981c.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASC717_393f6574771a575cfd3bee56ab222e43d2141d547228512e97ff2d985ece3462.png"
+      },
+      "ratings": {
+        "survivability": 45,
+        "artillery": 66,
+        "torpedoes": 0,
+        "antiAircraft": 52,
+        "maneuverability": 53,
+        "concealment": 66,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 33900,
+        "maxSpeed": 32.5,
+        "turningRadius": 690,
+        "rudderShiftTime": 9.3,
+        "surfaceDetectability": 10.9,
+        "airDetectability": 6.1,
+        "mainBatteryRange": 13.3
       }
     },
     {
@@ -17426,7 +17576,7 @@
         }
       },
       "premium": false,
-      "special": true,
+      "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD017_c73df203652062863c3a5edd2cc42ad1f24c2d8401e31a1a848dde7170f36413.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD017_e4cad67215ab664c24d09aea92dca253476705ac8d80fd2ba1328d9e527eca9f.png",
@@ -19900,6 +20050,56 @@
         "surfaceDetectability": 13.8,
         "airDetectability": 7.2,
         "mainBatteryRange": 16.1
+      }
+    },
+    {
+      "id": "3542070992",
+      "name": "Akagi",
+      "description": "The first large aircraft carrier of the Imperial Japanese Navy. To comply with the limitations of the Washington Naval Treaty, the ship was originally laid down as an Amagi-class battlecruiser, but she was eventually completed to a reworked design as an aircraft carrier. As the flagship of the famous First Air Fleet, she played a key role in the Japanese Navy's successes during the initial stages of the Pacific War. In June 1942, Akagi was sunk by a U.S. carrier-based aircraft during the Battle of Midway.",
+      "tier": 8,
+      "nation": {
+        "id": "japan",
+        "label": "Japan",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/japan.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "AirCarrier",
+        "label": "Aircraft Carrier",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/AirCarrier/standard_9f372d47b4fa5b5bbd79a3aaac816cb8d5343fa93949cce8934d94b84751b88e.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/AirCarrier/premium_4516ee494bb0396e51796cebff5e45c3f448d9790e0a58082057b8949ed9a3f8.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/AirCarrier/elite_8c5dbbe68e07b0a72c57a04a3d98baadc528f058be3a2e7b198fabeb07172330.png"
+        }
+      },
+      "premium": false,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSA718_c660824d8930cdb09702c25932b12eeebcaa27be750de66568ad6789dc722a55.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSA718_9a76008c0e55a7a46a9f5d4e13e3917ae829da7d97d2697cc6da73e13edecdad.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSA718_a2f7ab240775883a6d1e11cc58703bafa2a758f50c3f61aa961f62c75e567b8b.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSA718_b676a16ae66a74ca90d5c9c9c499d230d79fc239892f24483df48b5200c99a8f.png"
+      },
+      "ratings": {
+        "survivability": 70,
+        "artillery": 3,
+        "torpedoes": 0,
+        "antiAircraft": 46,
+        "maneuverability": 41,
+        "concealment": 49,
+        "aircraft": 61
+      },
+      "stats": {
+        "hitPoints": 55200,
+        "maxSpeed": 31.3,
+        "turningRadius": 1170,
+        "rudderShiftTime": 14.9,
+        "surfaceDetectability": 12.7,
+        "airDetectability": 10,
+        "mainBatteryRange": null
       }
     },
     {
@@ -23026,7 +23226,7 @@
         }
       },
       "premium": false,
-      "special": true,
+      "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD018_6ec33706cc5ee1f6c216e61d55602894688e89fc1e2dd771c10ff571f5969ee7.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD018_606770930f851e33dfd3e86c89a71a6050b137bf69bb31fba1b70b89ae7bf2d9.png",
@@ -23075,7 +23275,7 @@
           "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Destroyer/elite_d4fa1bfbf1f8ca4c5a9ae5e92ccfd4ba66369d93b4e6e3f3880551059cecda22.png"
         }
       },
-      "premium": false,
+      "premium": true,
       "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSD728_9f1943a5df6eebb52ee2b8d94fd0aa6a59761db5fdaaec066b9c01dc25a432fb.png",
@@ -23555,7 +23755,7 @@
     {
       "id": "3730782032",
       "name": "Flandre",
-      "description": "One of the projects developed in response to received intel about planned German battleships included the armament of three triple-gun turrets with 380 mm guns, and it was essentially a development of the Richelieu and Gascogne classes. That option was rejected, and the project that led to the creation of the Alsace-class battleship was selected as the final one.",
+      "description": "One of the projects developed in response to intel about planned German battleships that featured armament of three triple-gun turrets with 380 mm guns. It was essentially a development of the Richelieu and Gascogne classes. That option was rejected, and the project that led to the creation of the Alsace-class battleship was selected as the final one.",
       "tier": 8,
       "nation": {
         "id": "france",
@@ -23582,6 +23782,56 @@
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSB538_88230ceef58767fc6917714f1b8a81c40adb455ed774303ad6e0543b2101c04d.png",
         "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSB538_694af79316d96422afe4d194fbfc3c7b31c7729f7ca115016b7bb650166dfa2d.png",
         "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB538_134afd3b7541df220341b1a2ce183b6fa0ebf0b72308e78ddf75b5c97df5be9a.png"
+      },
+      "ratings": {
+        "survivability": 92,
+        "artillery": 85,
+        "torpedoes": 0,
+        "antiAircraft": 74,
+        "maneuverability": 48,
+        "concealment": 35,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 75400,
+        "maxSpeed": 33.5,
+        "turningRadius": 910,
+        "rudderShiftTime": 16.6,
+        "surfaceDetectability": 15.7,
+        "airDetectability": 10,
+        "mainBatteryRange": 20
+      }
+    },
+    {
+      "id": "3332323152",
+      "name": "Flandre B",
+      "description": "One of the projects developed in response to intel about planned German battleships that featured armament of three triple-gun turrets with 380 mm guns. It was essentially a development of the Richelieu and Gascogne classes. That option was rejected, and the project that led to the creation of the Alsace-class battleship was selected as the final one.",
+      "tier": 8,
+      "nation": {
+        "id": "france",
+        "label": "France",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/france.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Battleship",
+        "label": "Battleship",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/standard_1468cf2ed1dc129ec4db4d9d18306bd06abb0d6b08c805dc94fe23ce6187c119.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/premium_1d0cabf1997104fd727039ab9c09819260343ab3a9e862f361434d7f42270eb3.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/elite_9fe36e82e214ad6f8dcc305bf8d10d3d0fe35c64628611d9a39f3af01382a567.png"
+        }
+      },
+      "premium": true,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PFSB918_2be8ff2a78b421ff2d10e5c17aa1f8316bbb1a877f3fa375fd05b0f422b19142.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PFSB918_84698bf9d7924d4b7739b039f16f5c0f762db5621a10bb0abc16d3cad89752d0.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PFSB918_31b16dcc2369dbf3392eb54606a950f85db8e1206fe7f29bc05595448278abd8.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PFSB918_dc9b6643d3895dab098c0ec666096dad83fa65069ddcf1c55559859eaa148fe7.png"
       },
       "ratings": {
         "survivability": 92,
@@ -24082,6 +24332,56 @@
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASA538_f49217f8ad41059575248f6a4eef22b9c7cdb5ec2d549b400adfba2d085c01e6.png",
         "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASA538_bc4e628f97fdc4de5ff68aae83aadbcc590ff72482830345055c79b3e522e089.png",
         "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA538_feb410246694cc98591973de31b1df9a8653c678963666425027b5b9abcf9f4d.png"
+      },
+      "ratings": {
+        "survivability": 64,
+        "artillery": 4,
+        "torpedoes": 0,
+        "antiAircraft": 63,
+        "maneuverability": 47,
+        "concealment": 44,
+        "aircraft": 55
+      },
+      "stats": {
+        "hitPoints": 50000,
+        "maxSpeed": 32.5,
+        "turningRadius": 1060,
+        "rudderShiftTime": 12.3,
+        "surfaceDetectability": 13.8,
+        "airDetectability": 10,
+        "mainBatteryRange": null
+      }
+    },
+    {
+      "id": "3332356080",
+      "name": "Hornet B",
+      "description": "USS Hornet, the third Yorktown-class aircraft carrier, participated in the renowned Doolittle Raid and fought at Midway and in the Solomon Islands campaign. During the Battle of the Santa Cruz Islands, Hornet damaged aircraft carrier Shōkaku but also suffered several hits from air attacks. The carrier's power plant was knocked out, and a decision was made to abandon the ship. Despite nine torpedoes and several hundred 127 mm shells being fired at her by American destroyers, the aircraft carrier stayed afloat, but only until Japanese destroyers dealt the final blow.",
+      "tier": 8,
+      "nation": {
+        "id": "usa",
+        "label": "U.S.A.",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/usa.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "AirCarrier",
+        "label": "Aircraft Carrier",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/AirCarrier/standard_9f372d47b4fa5b5bbd79a3aaac816cb8d5343fa93949cce8934d94b84751b88e.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/AirCarrier/premium_4516ee494bb0396e51796cebff5e45c3f448d9790e0a58082057b8949ed9a3f8.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/AirCarrier/elite_8c5dbbe68e07b0a72c57a04a3d98baadc528f058be3a2e7b198fabeb07172330.png"
+        }
+      },
+      "premium": true,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASA918_72cebe924b72ca233fcf5b34328fb67ba47421730dc23e551d90ed4c4eedff91.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASA918_880569e9e032b1d49d5504c0ee953cc326ba290a1c2f5e1e6d1ef22a823fe8b7.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASA918_0fa07db2d25f2ec1a2a7ed239d88c384d612200ba45acce2dd21d4d907352fdc.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASA918_a9df5f274eef2bbb9350deb1264309e6b5babe10c3752c4a3a04a00311f1d7f4.png"
       },
       "ratings": {
         "survivability": 64,
@@ -26875,7 +27175,7 @@
           "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Destroyer/elite_d4fa1bfbf1f8ca4c5a9ae5e92ccfd4ba66369d93b4e6e3f3880551059cecda22.png"
         }
       },
-      "premium": false,
+      "premium": true,
       "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PHSD708_5ef0c76c469ba13ceae9947a7b63881da290054d585ea5d6968327ed7c0594d3.png",
@@ -28678,7 +28978,7 @@
       "premium": true,
       "special": false,
       "images": {
-        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB718_5e7c6a0fdfa8a102ca7d323d81ddede726791f75b071cfcbfd9e23227813fb27.png",
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PASB718_5bf0a33b0d54b57cfca3c2ed3b28f8aadc0ce83b300dfd47aeff4e71093442fd.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PASB718_ab23ae2f1ca25de1816298f64a708ca5bf796ef2280fe53747af12a00852b096.png",
         "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PASB718_35c699d0041165911be92ac270a9b11af7ac852ab6962475d969400dcb03b2f2.png",
         "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PASB718_40c927f50559c0fbfa4819153aacd6d96b227c4ad153baf7e0ebf5a120b8f2fd.png"
@@ -30689,7 +30989,7 @@
         "torpedoes": 15,
         "antiAircraft": 71,
         "maneuverability": 58,
-        "concealment": 40,
+        "concealment": 42,
         "aircraft": 0
       },
       "stats": {
@@ -30697,7 +30997,7 @@
         "maxSpeed": 36,
         "turningRadius": 840,
         "rudderShiftTime": 11.3,
-        "surfaceDetectability": 14.7,
+        "surfaceDetectability": 14.2,
         "airDetectability": 10,
         "mainBatteryRange": 18.6
       }
@@ -31705,7 +32005,7 @@
     {
       "id": "3540956880",
       "name": "Chikuma II",
-      "description": "A Tone-class heavy cruiser, this warship represents an advancement from the Mogami class. Notably, all four main battery turrets are situated on the ship's bow, a distinctive feature of this series. Designed for extended-range reconnaissance, escort duties, and supporting aircraft carrier formations, this warship boasts an augmented cruising range and carries an onboard air group. Throughout World War II, the cruiser took part in most major operations conducted by the Japanese Navy. In October 1944, Chikuma was sunk during the Battle of Leyte Gulf.",
+      "description": "This Tone-class heavy cruiser represents an advancement from the Mogami class. Notably, all four main battery turrets are situated on the ship's bow, a distinctive feature of this series. Designed for extended-range reconnaissance, escort duties, and supporting aircraft carrier formations, this warship boasts an augmented cruising range and carries an onboard air group. Throughout World War II, Chikuma took part in most major operations conducted by the Japanese Navy. She was eventually sunk during the Battle of Leyte Gulf in October 1944.",
       "tier": 9,
       "nation": {
         "id": "japan",
@@ -33085,7 +33385,7 @@
       },
       "ratings": {
         "survivability": 73,
-        "artillery": 87,
+        "artillery": 88,
         "torpedoes": 45,
         "antiAircraft": 67,
         "maneuverability": 41,
@@ -34375,7 +34675,7 @@
           "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/elite_127b2a5f66ce04425e45721020a88ed6d6cad202e186f39577cbcd91dd205fe3.png"
         }
       },
-      "premium": false,
+      "premium": true,
       "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISC739_05c5a62f79b142a9cec1c1df76f54ffdb44a9d70cec4cdf334306c065150fd93.png",
@@ -35726,7 +36026,7 @@
         }
       },
       "premium": false,
-      "special": true,
+      "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD019_39d346b5f1edd28cb327e369c2b78f679737d7d0f0152eeac06eff50c438c932.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD019_da4f05524479c5629632ed1744924f330ae5b2a45357f7980a3d72877898e2a9.png",
@@ -35850,6 +36150,56 @@
         "surfaceDetectability": 7.4,
         "airDetectability": 3.3,
         "mainBatteryRange": 9.3
+      }
+    },
+    {
+      "id": "3488528080",
+      "name": "Ōta",
+      "description": "A hypothetical \"improved Agano\"-class light cruiser that could have been built at the height of the Pacific War. To strengthen the ship's anti-aircraft capabilities, she could have been completed using a reworked design. In particular, the 152 mm guns that were traditional for a light cruiser could have been replaced with 100 mm dual-purpose mounts that had proven themselves as the main armament of Akizuki-class destroyers.",
+      "tier": 9,
+      "nation": {
+        "id": "japan",
+        "label": "Japan",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/japan.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Cruiser",
+        "label": "Cruiser",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/standard_44b68c918edc534e1367cb6512e9e8cc4d28aa54d237db820f1bbba867266742.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/premium_1114542bcd311c388080eea3a4d54a7ea6fdc8706b019fcbf16ace9951f3a000.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/elite_127b2a5f66ce04425e45721020a88ed6d6cad202e186f39577cbcd91dd205fe3.png"
+        }
+      },
+      "premium": false,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PJSC769_97643fc3c8fc5a87b846463a99470d945a67b10f25bdf69db4aa7a005b5c5346.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PJSC769_ce57d4ad48a2eea188e7316cc2b2658889d283a6e8b23586e8e36620eae02a33.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PJSC769_2e2601f76f3ccc840cc1a50e62bf46888067214feebd0e8bab47875163621661.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PJSC769_66952f0d8b2bf33b9ee1bcdb192845b0a547f609993e0d42a79194414b102b11.png"
+      },
+      "ratings": {
+        "survivability": 45,
+        "artillery": 47,
+        "torpedoes": 35,
+        "antiAircraft": 61,
+        "maneuverability": 64,
+        "concealment": 61,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 30700,
+        "maxSpeed": 37.5,
+        "turningRadius": 750,
+        "rudderShiftTime": 7.9,
+        "surfaceDetectability": 11.5,
+        "airDetectability": 7.2,
+        "mainBatteryRange": 13.5
       }
     },
     {
@@ -36287,7 +36637,7 @@
         "survivability": 94,
         "artillery": 86,
         "torpedoes": 0,
-        "antiAircraft": 74,
+        "antiAircraft": 76,
         "maneuverability": 44,
         "concealment": 28,
         "aircraft": 0
@@ -37903,6 +38253,56 @@
       }
     },
     {
+      "id": "3331274160",
+      "name": "Victoria B",
+      "description": "A swift battleship that shared the layout and features of the Italian Vittorio Veneto-class warships was considered for construction in Spain through discussions with the Italian government in 1939 and 1940; however, the escalation of World War II and the condition of the Spanish economy hindered the implementation of these plans.",
+      "tier": 9,
+      "nation": {
+        "id": "spain",
+        "label": "Spain",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/spain.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Battleship",
+        "label": "Battleship",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/standard_1468cf2ed1dc129ec4db4d9d18306bd06abb0d6b08c805dc94fe23ce6187c119.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/premium_1d0cabf1997104fd727039ab9c09819260343ab3a9e862f361434d7f42270eb3.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/elite_9fe36e82e214ad6f8dcc305bf8d10d3d0fe35c64628611d9a39f3af01382a567.png"
+        }
+      },
+      "premium": true,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PSSB919_151d79ddb2548c49fc07081caa207867863f19551cb6d4e0f91c2036367db2d5.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PSSB919_a2f6d1f7298b45fad36805b689f707f932fd475e512e2eb71bab95626c656345.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PSSB919_0e6739ef4b63e7dc3d38f7f06aa39ccaed436d28d118033a7b2eaad080e7f184.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PSSB919_cef14b19c09af9f55acb87b0d31b17a57103bf46c464aef99701ed24e88b5df4.png"
+      },
+      "ratings": {
+        "survivability": 82,
+        "artillery": 88,
+        "torpedoes": 0,
+        "antiAircraft": 75,
+        "maneuverability": 42,
+        "concealment": 41,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 64800,
+        "maxSpeed": 30,
+        "turningRadius": 810,
+        "rudderShiftTime": 15.5,
+        "surfaceDetectability": 14.5,
+        "airDetectability": 10,
+        "mainBatteryRange": 23.9
+      }
+    },
+    {
       "id": "3551442384",
       "name": "Vyazma",
       "description": "A \"small battleship\" design developed in the early 1950s, with its primary armament comprising several heavy guns concentrated on the bow. Operating in groups, such ships were expected to effectively counter any full-fledged battleship.",
@@ -39176,7 +39576,7 @@
         }
       },
       "premium": false,
-      "special": true,
+      "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PVSD010_96b4939220b2c0f8628a264c3a67bf7cd8af80bbac35a0fcc3242db0d3d0fe1d.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PVSD010_674446114f991911cb3dbf02cca7f1e97a493bc48b5767ba9883940806cb3464.png",
@@ -42953,6 +43353,56 @@
       }
     },
     {
+      "id": "3340678352",
+      "name": "Incheon B",
+      "description": "This heavy cruiser armed with eight automatic 203 mm main caliber guns is an alternative version of a design for a cruiser with powerful rapid-firing artillery, developed in the 1940s in the United States. Had Incheon been cast in metal, such a ship could have joined the Republic of Korea Navy during its active expansion from the 1950s through the 1980s.",
+      "tier": 10,
+      "nation": {
+        "id": "pan_asia",
+        "label": "Pan-Asia",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/pan_asia.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Cruiser",
+        "label": "Cruiser",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/standard_44b68c918edc534e1367cb6512e9e8cc4d28aa54d237db820f1bbba867266742.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/premium_1114542bcd311c388080eea3a4d54a7ea6fdc8706b019fcbf16ace9951f3a000.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Cruiser/elite_127b2a5f66ce04425e45721020a88ed6d6cad202e186f39577cbcd91dd205fe3.png"
+        }
+      },
+      "premium": false,
+      "special": true,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PZSC910_be0da2b3d607e4cf1272e40328c1c9339fd41070d4c39d5c3b6b812f82f2761c.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PZSC910_426d2966844310541bf2b577fb8e0df9ae477589372c26efcb120dc0500de294.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PZSC910_a5ed3333319910cea30f6f5d22c4d1d3e31a7f632da8148e8a55e12a10c26329.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PZSC910_87e1f430ceaff273e3c40f91c7f3631f45dc107c936fa766a493a91713d76c4b.png"
+      },
+      "ratings": {
+        "survivability": 66,
+        "artillery": 84,
+        "torpedoes": 32,
+        "antiAircraft": 85,
+        "maneuverability": 54,
+        "concealment": 48,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 48600,
+        "maxSpeed": 33,
+        "turningRadius": 800,
+        "rudderShiftTime": 8.3,
+        "surfaceDetectability": 13.8,
+        "airDetectability": 8,
+        "mainBatteryRange": 16.1
+      }
+    },
+    {
       "id": "3655284688",
       "name": "Incomparable",
       "description": "When Admiral Fisher returned to the post of First Sea Lord in 1915, the leadership of the British Navy was faced with the issue of landing troops on the German Baltic coast. It was planned that Russian troops would cover the operation, and this required ships with the largest guns possible. Light battlecruisers Courageous, Furious, and Glorious were built within this concept, while Incomparable, armed with the world's largest 508 mm guns, was to represent its further development.",
@@ -44936,10 +45386,10 @@
       "ratings": {
         "survivability": 32,
         "artillery": 15,
-        "torpedoes": 60,
+        "torpedoes": 48,
         "antiAircraft": 0,
         "maneuverability": 58,
-        "concealment": 99,
+        "concealment": 96,
         "aircraft": 0
       },
       "stats": {
@@ -44947,8 +45397,8 @@
         "maxSpeed": 32,
         "turningRadius": 460,
         "rudderShiftTime": 5.9,
-        "surfaceDetectability": 5.2,
-        "airDetectability": 1.9,
+        "surfaceDetectability": 5.8,
+        "airDetectability": 2.1,
         "mainBatteryRange": 6
       }
     },
@@ -46000,6 +46450,56 @@
         "surfaceDetectability": 15.2,
         "airDetectability": 10,
         "mainBatteryRange": 21
+      }
+    },
+    {
+      "id": "3539940816",
+      "name": "Rodina",
+      "description": "A battleship of Project 23bis developed in 1939 to address deficiencies revealed in the Sovetsky Soyuz-class and intended to be used in the next series of battleships. The project provided for the redesign of the defense systems, including armor and torpedo protection, and strengthening the anti-aircraft armament. The use of a four-turret armament configuration was also considered, but it was deemed unviable due to its excessively large displacement. Eventually, not a single ship of Project 23bis was ever laid down.",
+      "tier": 10,
+      "nation": {
+        "id": "ussr",
+        "label": "U.S.S.R.",
+        "images": {
+          "tiny": "https://heykrystal.github.io/wows-shared-data/public/assets/wargaming/nations/icons/ussr.png",
+          "small": null,
+          "default": null
+        }
+      },
+      "type": {
+        "id": "Battleship",
+        "label": "Battleship",
+        "images": {
+          "default": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/standard_1468cf2ed1dc129ec4db4d9d18306bd06abb0d6b08c805dc94fe23ce6187c119.png",
+          "premium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/premium_1d0cabf1997104fd727039ab9c09819260343ab3a9e862f361434d7f42270eb3.png",
+          "special": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/types/Battleship/elite_9fe36e82e214ad6f8dcc305bf8d10d3d0fe35c64628611d9a39f3af01382a567.png"
+        }
+      },
+      "premium": false,
+      "special": false,
+      "images": {
+        "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PRSB720_41f96c13521605d8ca4f9deeb76d2d9e131de56f3319b68297abd5d2da75b80e.png",
+        "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PRSB720_ca8e027670d9d6d5733be59060d693c15e6226093c4b1df717cbe7ca63dc775a.png",
+        "medium": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/medium/PRSB720_b71507e9b300fa1308ff65129ddb96f2d8e60e31f1c02e6dd70b2b246598057d.png",
+        "large": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/large/PRSB720_b9c64ba58bcfeccc59b9d8fe52b9c7a2de2a279aeb36f676d650291fba0c4d87.png"
+      },
+      "ratings": {
+        "survivability": 100,
+        "artillery": 86,
+        "torpedoes": 0,
+        "antiAircraft": 81,
+        "maneuverability": 32,
+        "concealment": 26,
+        "aircraft": 0
+      },
+      "stats": {
+        "hitPoints": 104500,
+        "maxSpeed": 29,
+        "turningRadius": 1090,
+        "rudderShiftTime": 21.8,
+        "surfaceDetectability": 17.7,
+        "airDetectability": 10,
+        "mainBatteryRange": 22.3
       }
     },
     {
@@ -47539,7 +48039,7 @@
         "torpedoes": 35,
         "antiAircraft": 69,
         "maneuverability": 40,
-        "concealment": 36,
+        "concealment": 38,
         "aircraft": 0
       },
       "stats": {
@@ -47547,7 +48047,7 @@
         "maxSpeed": 29.5,
         "turningRadius": 880,
         "rudderShiftTime": 15.9,
-        "surfaceDetectability": 15.4,
+        "surfaceDetectability": 15.1,
         "airDetectability": 10,
         "mainBatteryRange": 21.7
       }
@@ -49226,7 +49726,7 @@
         }
       },
       "premium": false,
-      "special": true,
+      "special": false,
       "images": {
         "contour": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/contour/PISB011_0119d4650bc8c32a6d58b5a562528cf746b145b0016cc3f7d76227c01c312a32.png",
         "small": "https://wows-gloss-icons.wgcdn.co/icons/vehicle/small/PISB011_95f81468522d557cf4f69f931d178f0942ff0deaf14a8c0a240d026ac7f91ec6.png",
